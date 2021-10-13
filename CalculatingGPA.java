@@ -22,5 +22,8 @@ public class CalculatingGPA {
         float gpa = (math+physical+chemical+turkish+history+music)/6;
 
         System.out.println("Your GPA : "+gpa);
+
+        String result = (gpa>60) ? "Geçti" : "Kaldı";
+        System.out.println(result);
     }
 }

@@ -19,5 +19,7 @@ public class RecursivePrime {
         int i=2;
         System.out.print(number+" sayısı ");
         System.out.println(isPrime(number, i) ? "Asaldır !" : "Asal Değildir !");
+
+        input.close();
     }
 }

@@ -1,3 +1,6 @@
+/**
+ * Çok boyutlu diziler kullanılarak "yıldızlar" ile ekrana "B" harfi yazan programı yazınız.
+ */
 public class BLetter {
     public static void main(String[] args) {
         String[][] letter = new String[7][4];
